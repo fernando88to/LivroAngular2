@@ -39,3 +39,12 @@ $ npm install -g angular-cli
 $ ng new LivroAngular2
 
 ```
+
+
+### Visual Code
+
+Como o code não indica qual o branch ao fazer o pull tive que definir que o master é o padrão
+
+```bash
+git branch --set-upstream-to=origin/master master
+```

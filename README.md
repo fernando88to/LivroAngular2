@@ -29,3 +29,12 @@ Run `ng github-pages:deploy` to deploy to GitHub Pages.
 ## Further help
 
 To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+### Comandos:
+
+```bash
+$ npm install -g typescript
+$ npm install -g angular-cli
+$ ng new LivroAngular2
+```

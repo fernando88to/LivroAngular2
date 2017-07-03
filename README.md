@@ -83,3 +83,12 @@ Altera a estrutura da pagina
 ### Diretivas de Atributos
 
 Não altera a estrutura, mas modifica os elementos que estão nela.
+
+
+### Recomendação sobre imports
+
+Os módulos do próprio Angular 2 ficarão nas primeiras linhas do arquivo.
+
+Arquivos ou módulos de terceiros ficarão abaixo, sempre pulando uma linha para não juntar com os arquivos do próprio Angular	2.
+
+Os arquivos de componentes, serviços ou classes que fizemos dentro do projeto ficarão abaixo, sempre pulando uma linha para não juntar com os arquivos de terceiros.

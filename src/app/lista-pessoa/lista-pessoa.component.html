@@ -1,6 +1,6 @@
 <h2>Lista de Pessoas</h2>
 <ul>
-  <li></li>
+  <li *ngFor="let pessoa of pessoas">{{pessoa}}</li>
 </ul>  
 
 <input type="text" [(ngModel)]="nome"/>

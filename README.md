@@ -39,6 +39,8 @@ $ npm install -g angular-cli
 $ ng new LivroAngular2 //cria o projeto
 $ ng server //roda o projeto
 $ ng g c lista-pessoa   ou ng g component lista-pessoa
+$ ng g s alerta     ng g service alerta
+$ ng g s pessoa-service  no diretorio do compenente lista-pessoa
 
 ```
 
@@ -72,3 +74,12 @@ Two-way data binding
     junção de property binding e event binding
     [()]      [(ngModel)]="variavel"
 
+### Diretivas Estruturais
+
+    *ngFor, *ngIf, *ngSwitch ...
+
+Altera a estrutura da pagina
+
+### Diretivas de Atributos
+
+Não altera a estrutura, mas modifica os elementos que estão nela.

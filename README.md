@@ -55,13 +55,20 @@ git branch --set-upstream-to=origin/master master
 ### Data Binding
 
 Interpolation
+
     Utiliza {{}}
+
 Property binding
+
       []  
+
 Event binding
+
     Tem o caminho contrário vem do template para a classe do componente.
     () (click)="acao"
+
 Two-way data binding
+
     junção de property binding e event binding
     [()]      [(ngModel)]="variavel"
 

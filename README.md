@@ -41,6 +41,9 @@ $ ng server //roda o projeto
 $ ng g c lista-pessoa   ou ng g component lista-pessoa
 $ ng g s alerta     ng g service alerta
 $ ng g s pessoa-service  no diretorio do compenente lista-pessoa
+$ ng g c interpolation-binding
+$ ng g c property-binding
+$ ng g c nf-if
 
 ```
 
@@ -107,3 +110,6 @@ No arquivo app.module.ts
 'bootstrap' => indica por onde começar a renderizar os componentes.
 
 
+### *ngIf
+
+Essa diretiva não esconde um elemento no dom, ela adiona ou remove, para esconder utilizar [hidden]

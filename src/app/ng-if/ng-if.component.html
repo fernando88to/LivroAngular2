@@ -1,0 +1,18 @@
+<h2>*ngIf</h2>
+
+
+<button (click)="mostrar()">Exibir nome da escolha de treinamentos</button>
+<br />
+
+<p *ngIf="getValor()">Treinamentos com a condicional *nfIf</p>
+
+<div *ngIf="true">
+  *ngIf verdadeiro
+</div>  
+
+<div *ngIf="false">
+  *ngIf falso
+</div>  
+
+
+<p [hidden]="true">paragrafo com hiiden</p>

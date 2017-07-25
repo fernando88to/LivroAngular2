@@ -16,7 +16,7 @@
 <!--<app-ng-for></app-ng-for>-->
 <!--<app-ng-class></app-ng-class>-->
 
-
+<!--
 <app-ng-content>
   <div class="titulo">
     meu título do passado
@@ -30,3 +30,9 @@
   </div>
 
 </app-ng-content>
+-->
+
+<app-inputoutput [menu]="desenvolvimento" (nomeClidado)="valorPassado($event)"></app-inputoutput>
+<p>você clicou em: {{valor}}</p>
+
+

@@ -13,6 +13,7 @@ import { NgIfComponent } from './ng-if/ng-if.component';
 import { NgForComponent } from './ng-for/ng-for.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
+import { InputoutputComponent } from './inputoutput/inputoutput.component';
 
 
 
@@ -26,7 +27,8 @@ import { NgContentComponent } from './ng-content/ng-content.component';
     NgIfComponent,
     NgForComponent,
     NgClassComponent,
-    NgContentComponent
+    NgContentComponent,
+    InputoutputComponent
   ],
   imports: [
     BrowserModule,

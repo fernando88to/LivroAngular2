@@ -14,6 +14,7 @@ import { NgForComponent } from './ng-for/ng-for.component';
 import { NgClassComponent } from './ng-class/ng-class.component';
 import { NgContentComponent } from './ng-content/ng-content.component';
 import { InputoutputComponent } from './inputoutput/inputoutput.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 
 
@@ -28,7 +29,8 @@ import { InputoutputComponent } from './inputoutput/inputoutput.component';
     NgForComponent,
     NgClassComponent,
     NgContentComponent,
-    InputoutputComponent
+    InputoutputComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,

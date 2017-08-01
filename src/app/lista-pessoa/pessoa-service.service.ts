@@ -5,4 +5,9 @@ export class PessoaServiceService {
 
   constructor() { }
 
+
+  getPessoas():string[]{
+    return ['João','Maria','ANgular2', 'Tiago'];
+  }
+
 }

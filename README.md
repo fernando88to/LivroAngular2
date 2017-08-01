@@ -92,3 +92,18 @@ Os módulos do próprio Angular 2 ficarão nas primeiras linhas do arquivo.
 Arquivos ou módulos de terceiros ficarão abaixo, sempre pulando uma linha para não juntar com os arquivos do próprio Angular	2.
 
 Os arquivos de componentes, serviços ou classes que fizemos dentro do projeto ficarão abaixo, sempre pulando uma linha para não juntar com os arquivos de terceiros.
+
+
+### @ngModule 
+
+No arquivo app.module.ts
+
+'declarations' => todas as classes e componentes que criamos.
+
+'imports' => todos os módulos importados, pode ser internos  ou de terceiros.
+
+'providers' => todos os serviços disponíveis na aplicação.
+
+'bootstrap' => indica por onde começar a renderizar os componentes.
+
+

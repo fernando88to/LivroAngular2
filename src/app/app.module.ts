@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { ListaPessoaComponent } from './lista-pessoa/lista-pessoa.component';
 import {AlertaService} from './alerta.service';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,

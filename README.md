@@ -113,3 +113,9 @@ No arquivo app.module.ts
 ### *ngIf
 
 Essa diretiva não esconde um elemento no dom, ela adiona ou remove, para esconder utilizar [hidden]
+
+
+Caso tenha mais de 4 condições recomenda-se utilizar ngSwitch
+    https://angular.io/api/common/NgSwitch
+
+    

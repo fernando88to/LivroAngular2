@@ -1,0 +1,36 @@
+<h2>[ngClass]</h2>
+
+<!--utilizar o class binding quando for somente uma classe -->
+<p [class.cor-fundo]="true"> usando class binding, [class.cor-fundo]="true"</p>
+
+<br />
+<br />
+<!--utilizar o ngClass quando for mais de uma classe -->
+<p [ngClass]="{'cor-fundo':true}">Usnaod ngClass declarando a classe css no template</p>
+
+
+
+<br />
+<br />
+
+<p [class.cor-fundo]="true"
+  [class.cor-letra]="true"
+  [class.estilo-letra]="true"
+  [class.borda-paragrafo]="true">
+  usando class binding com várias classes
+
+</p>
+
+
+<br />
+<br />
+<br />
+
+<p [ngClass]="{'cor-fundo':true, 'cor-letra':true, 'estilo-letra':true,'borda-paragrafo':true}">usando ng class com várias classes</p>
+
+<br />
+<br />
+<br />
+
+
+<p [ngClass]="classes()">usando ng class com métodos na classe do componente</p>

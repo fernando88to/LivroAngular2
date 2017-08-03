@@ -11,6 +11,7 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
 import { PropertyBindingngComponent } from './property-bindingng/property-bindingng.component';
 import { NgIfComponent } from './ng-if/ng-if.component';
 import { NgForComponent } from './ng-for/ng-for.component';
+import { NgClassComponent } from './ng-class/ng-class.component';
 
 
 
@@ -22,7 +23,8 @@ import { NgForComponent } from './ng-for/ng-for.component';
     PropertyBindingComponent,
     PropertyBindingngComponent,
     NgIfComponent,
-    NgForComponent
+    NgForComponent,
+    NgClassComponent
   ],
   imports: [
     BrowserModule,
